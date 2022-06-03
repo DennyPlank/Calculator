@@ -36,7 +36,7 @@ const Layout = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto" onSelect = {handleSelect}>
               <Nav.Link eventKey = "/">Home</Nav.Link>
-              <Nav.Link eventKey = "/protected">Protected</Nav.Link>
+              <Nav.Link eventKey = "/myCalculator">My Calculator</Nav.Link>
             </Nav>
             <Nav className="justify-content-end" onSelect = {handleSelect}>
               {renderUILinks()}

@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Layout from './components/Layout';
-import Protected from './pages/Protected';
+import MyCalculator from './pages/MyCalculator';
 import RequireAuth from './components/RequireAuth';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Route path = "/register" element = {<Register />} />
         <Route path = "/login" element = {<Login />} />
         <Route element = {<RequireAuth />}>
-          <Route path = "/protected" element = {<Protected />} />
+          <Route path = "/MyCalculator" element = {<MyCalculator />} />
         </Route>
       </Route>
     </Routes>

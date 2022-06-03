@@ -7,7 +7,7 @@ const Home =  () => {
   return(
     <div>
       <h1>Home</h1>
-      <RenderJson json={auth} />
+      <p>Where all your calculator needs are met</p>
     </div>
   )
 };

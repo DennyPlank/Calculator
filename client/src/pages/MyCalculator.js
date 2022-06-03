@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Container } from 'react-bootstrap';
 import { AuthContext } from '../providers/AuthProvider';
 
-const Protected = () => {
+const MyCalculator = () => {
   const {authenticated} = useContext(AuthContext)
   
   const renderPage = () => {
@@ -24,4 +24,4 @@ const Protected = () => {
   )
 };
 
-export default Protected;
+export default MyCalculator;
